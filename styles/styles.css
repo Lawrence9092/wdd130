@@ -14,7 +14,7 @@ h1 {
 }
 
 img {
-    width: 150x;
+    width: 150px;
     height: auto;
     border: 1px solid black;
     padding: 2px;
@@ -34,7 +34,7 @@ aside {
     margin: 1rem;
     border: 1px solid rgb(0 0 0 / 0.2); /* 1 */
     padding: 1rem;
-    background color: #eee;
+    background: #eee;
     color: #333;
     text-align: center;
 }
