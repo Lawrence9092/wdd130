@@ -40,6 +40,7 @@ nav, p, section, article {
 
 .socialmedia a {
     text-decoration: none;
+    width: 150px;
 }
 
 .hero {
