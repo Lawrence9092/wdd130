@@ -7,6 +7,24 @@
   --body-font: "Lato", sans-serif;
 }
 
+.hero {
+    position: relative;
+    text-align: center:
+}
+
+.hero h1, .hero article {
+    position: absolute;
+    top: 20%;
+    left: 10%;
+    color: white;
+}
+
+.hero article img {
+    float: right;
+    width: 150px;
+    margin-left: 15px;
+}
+
 header {
     background-color: var(--primary-color);
     color: var(--accent2-color);
