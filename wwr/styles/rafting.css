@@ -9,14 +9,14 @@
 
 .hero {
     position: relative;
-    text-align: center:
+    text-align: center;
 }
 
 .hero h1, .hero article {
     position: absolute;
-    top: 20%;
+    top: 73%;
     left: 10%;
-    color: white;
+    color: yellow;
 }
 
 .hero article img {
@@ -28,6 +28,12 @@
 header {
     background-color: var(--primary-color);
     color: var(--accent2-color);
+}
+
+header {
+    display: grid;
+    grid-template-columns: 350px 1fr;
+    align-items: center;
 }
 
 
@@ -55,11 +61,32 @@ h1 {
 h2 {
     font-family: var(--heading-font);
     color: var(--primary-color);
+    margin: 1rem;
+    border: 1px solid rgb(0 0 0 / 10%);
+    padding: .5rem;
+    background-color: #0496ff;
+    text-align: center;
+    grid-column: 1 / 6;
 }
 
+element.style {
+    display: grid;
+    grid-auto-columns: 1fr 1fr 1fr 1fr 1fr;
+}
+
+img {
+    width: 156px;
+    height: 100%;
+    object-fit: cover;
+}
 nav, p, section, article {
     margin: 16px;
     padding: 8px;
+}
+
+nav {
+    display: flex;
+    justify-content: space-evenly;
 }
 
 nav a {
@@ -70,9 +97,6 @@ nav a {
     text-decoration: none;
 }
 
-.hero {
-    position: relative;
-}
 
 .hero img {
     display: block;
