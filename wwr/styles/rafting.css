@@ -262,3 +262,19 @@ header {
     padding: 0 1rem 1rem;
     line-height: 1.5;
 }
+
+footer .socialmedia {
+  display: flex;             /* Align icons in a row */
+  justify-content: center;   /* Center them horizontally */
+  gap: 1rem;                  /* Space between icons */
+  margin-bottom: 1rem;
+}
+
+footer .socialmedia img {
+  width: 30px;                /* Shrink the icons */
+  height: auto;
+}
+
+footer .socialmedia a {
+  display: inline-block;
+}
