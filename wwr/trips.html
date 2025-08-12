@@ -7,9 +7,124 @@
     <meta name="description" content="Come and enjoy our trips at Plamarry Rafting Company.">
     <meta name="author" content="Lawrence Ngwenya">
     <link rel="stylesheet" href="styles/rafting.css">
-    
+<style>
+    .cta {
+      background-color: #0077b6;
+      color: white;
+      text-align: center;
+      padding: 1rem;
+      font-size: 1.5rem;
+    }
+    .cta a {
+      color: white;
+      background: #ff6b6b;
+      padding: 0.5rem 1rem;
+      text-decoration: none;
+      border-radius: 5px;
+      margin-left: 10px;
+    }
+
+    .trips-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+      gap: 1rem;
+      padding: 1rem;
+    }
+    .trip {
+      background: #f1f1f1;
+      border-radius: 8px;
+      overflow: hidden;
+      box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+    }
+    .trip img {
+      width: 100%;
+      height: 200px;
+      object-fit: cover;
+    }
+    .trip h3 {
+      margin: 0.5rem;
+    }
+    .trip p {
+      padding: 0 0.5rem 1rem;
+      font-size: 0.95rem;
+    }
+
+    table {
+      border-collapse: collapse;
+      width: 100%;
+      margin-top: 2rem;
+    }
+    th, td {
+      border: 1px solid #ccc;
+      padding: 0.5rem;
+      text-align: left;
+    }
+    th {
+      background: #0077b6;
+      color: white;
+    }
+  </style>
 </head>
 <body>
+
+  <!-- Call to Action -->
+  <div class="cta">
+    Ready for your next adventure?
+    <a href="contact.html">Contact Us</a>
+  </div>
+
+  <!-- Trips Section -->
+  <section class="trips-grid">
+    <div class="trip">
+      <img src="images/rafting1.jpg" alt="Class IV Rapids Adventure">
+      <h3>Class IV Rapids Adventure</h3>
+      <p>Experience the thrill of challenging rapids with our expert guides. Perfect for adrenaline seekers with some rafting experience.</p>
+    </div>
+    <div class="trip">
+      <img src="images/rafting2.jpg" alt="Family Fun Float">
+      <h3>Family Fun Float</h3>
+      <p>A gentle, scenic route ideal for families and beginners. Enjoy wildlife spotting and calm waters in a safe environment.</p>
+    </div>
+    <div class="trip">
+      <img src="images/rafting3.jpg" alt="Full-Day Expedition">
+      <h3>Full-Day Expedition</h3>
+      <p>Journey downriver for an entire day, with lunch provided on a riverside beach. A perfect blend of adventure and relaxation.</p>
+    </div>
+    </section>
+
+    <!-- Trips Table -->
+    <table>
+    <thead>
+      <tr>
+        <th>Trip Name</th>
+        <th>Difficulty</th>
+        <th>Duration</th>
+        <th>Price (per person)</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>Class IV Rapids Adventure</td>
+        <td>Advanced</td>
+        <td>4 Hours</td>
+        <td>$120</td>
+      </tr>
+      <tr>
+        <td>Family Fun Float</td>
+        <td>Beginner</td>
+        <td>2 Hours</td>
+        <td>$60</td>
+      </tr>
+      <tr>
+        <td>Full-Day Expedition</td>
+        <td>Intermediate</td>
+        <td>8 Hours</td>
+        <td>$180</td>
+      </tr>
+    </tbody>
+    </table>    
+    </head>
+    <body>
     <header>
       <img src="images/wwr-logo.png" alt="Rafting Company Logo">
       <nav>
