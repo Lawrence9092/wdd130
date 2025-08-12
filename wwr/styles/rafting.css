@@ -271,8 +271,8 @@ footer .socialmedia {
 }
 
 footer .socialmedia img {
-  width: 30px;                /* Shrink the icons */
-  height: auto;
+  width: 30px;   /* or 25px if you want smaller */
+  height: 30px;  /* keeps square shape */
 }
 
 footer .socialmedia a {
