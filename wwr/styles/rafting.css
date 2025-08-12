@@ -263,14 +263,14 @@ header {
     line-height: 1.5;
 }
 
-footer .socialmedia {
+footer nav.socialmedia {
   display: flex;             /* Align icons in a row */
   justify-content: center;   /* Center them horizontally */
   gap: 1rem;                  /* Space between icons */
   margin-bottom: 1rem;
 }
 
-footer .socialmedia img {
+footer nav.socialmedia img {
   width: 30px;   /* or 25px if you want smaller */
   height: 30px;  /* keeps square shape */
 }
