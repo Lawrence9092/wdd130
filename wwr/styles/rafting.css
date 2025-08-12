@@ -123,13 +123,13 @@ h1 {
 .hero {
   position: relative; /* Important for positioning the text absolutely inside */
   width: 100%;
-  height: 500px; /* Adjust height as needed */
   overflow: hidden;
 }
 
 .hero-image {
   width: 100%;
-  height: 100%;
+  height: auto;
+  display: block;
   object-fit: cover; /* Ensures image covers without distortion */
 }
 
