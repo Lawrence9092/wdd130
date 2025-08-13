@@ -26,22 +26,23 @@
 }
 
 header {
-    background-color: var(--primary-color);
-    color: var(--accent2-color);
-    display: flex;
-    grid-template-columns: 350px 1fr;
-    align-items: center;
-    justify-content: space-between;
-    padding: 1rem 2rem;
+  display: flex;                   /* put logo + nav side-by-side */
+  justify-content: space-between;  /* space between logo and links */
+  align-items: center;             /* vertically align center */
+  padding: 1rem 2rem;
+  background-color: #0077b6;       /* your chosen blue */
+  color: white;
+  max-width: 1200px;               /* keeps things centered */
+  margin: 0 auto;                  /* center on page */
 }
 
 header img {
-  height: 60px; /* adjust as needed */
+  height: 60px;
 }
 
 header nav {
   display: flex;
-  gap: 2rem; /* space between links */
+  gap: 2rem;
 }
 
 header nav a {
