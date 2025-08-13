@@ -142,6 +142,10 @@ nav a {
     width: 125px;
 }
 
+.hero h1 {
+    position: absolute;
+    color: yellow;
+}
 .hero {
   position: relative; /* Important for positioning the text absolutely inside */
   width: 100%;
