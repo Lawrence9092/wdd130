@@ -97,6 +97,8 @@ nav, p, section, article {
 nav {
     display: flex;
     justify-content: space-evenly;
+    margin: 16px;
+    padding: 8px;
 }
 
 nav a {
