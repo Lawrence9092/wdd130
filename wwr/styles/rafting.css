@@ -327,3 +327,30 @@ footer nav.socialmedia img {
   width: 30px;
   height: 30px;
 }
+
+.map {
+  max-width: 100%;
+  margin: 2rem 0;
+  display: flex;
+  justify-content: center;
+}
+
+.map iframe {
+  border: 0;
+  width: 100%;
+  max-width: 600px;
+  height: 450px;
+  border-radius: 8px; /* optional, for rounded corners */
+  box-shadow: 0 4px 8px rgba(0,0,0,0.2); /* optional drop shadow */
+}
+
+.contact-section {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2rem;
+}
+
+.contact-info, .map {
+  flex: 1 1 300px;
+}
+
