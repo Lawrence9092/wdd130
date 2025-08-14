@@ -14,8 +14,6 @@
 
 .hero h1, .hero article {
     position: absolute;
-    top: 73%;
-    left: 10%;
     color: yellow;
 }
 
